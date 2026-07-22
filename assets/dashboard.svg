@@ -53,7 +53,7 @@
   
   <!-- Text Content -->
   <text x="80" y="110" class="title neon-text">Muhammed Ali</text>
-  <text x="80" y="140" class="subtitle">DATA SCIENTIST | AI ENGINEER</text>
+  <text x="80" y="140" class="subtitle">DATA ANALYST | DATA ENGINEER</text>
   
   <text x="80" y="190" font-family="Arial" font-size="14" fill="#8A9CC0">Building intelligent data systems,</text>
   <text x="80" y="215" font-family="Arial" font-size="14" fill="#8A9CC0">predictive models, and scalable architectures.</text>
@@ -61,8 +61,8 @@
   <!-- Stats Mini Panels -->
   <g transform="translate(480, 80)">
     <rect width="160" height="70" rx="8" class="glass-panel" />
-    <text x="15" y="30" class="stat-label">Model Focus</text>
-    <text x="15" y="55" class="stat-val">Deep Learning</text>
+    <text x="15" y="30" class="stat-label">Data Focus</text>
+    <text x="15" y="55" class="stat-val">Data Mining</text>
   </g>
   
   <g transform="translate(660, 80)">
@@ -80,7 +80,7 @@
   <g transform="translate(660, 170)">
     <rect width="160" height="70" rx="8" class="glass-panel" />
     <text x="15" y="30" class="stat-label">Cloud Native</text>
-    <text x="15" y="55" class="stat-val">MLOps</text>
+    <text x="15" y="55" class="stat-val">Pipelines</text>
   </g>
   
 </svg>

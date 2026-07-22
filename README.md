@@ -1,6 +1,6 @@
 <!-- =======================================================
      JAW-DROPPING GITHUB PROFILE README
-     Data Science & AI Engineering Dashboard
+     Data Science & Analytics Dashboard
 ======================================================== -->
 
 <div align="center">
@@ -32,15 +32,15 @@
   <tr>
     <td width="50%" valign="top">
       <h2>🧠 About Me</h2>
-      <p>I'm <b>Muhammed Ali</b>, a Data Scientist and AI Engineer. I transform complex datasets into actionable insights using robust architectures, optimized SQL, statistical modeling, and deep learning.</p>
+      <p>I'm <b>Muhammed Ali</b>, a Data Analyst and Data Engineer. I transform complex datasets into actionable insights using robust architectures, optimized SQL, statistical modeling, and data visualization.</p>
       <p>My focus is on making data pipelines <b>scalable, performant, and secure.</b></p>
       <br>
       <h3>⚡ Professional Focus</h3>
       <ul>
-        <li>Deep Learning & Neural Networks</li>
+        <li>Data Visualization & Storytelling</li>
         <li>Data Engineering & Pipeline Automation</li>
         <li>Analytics Engineering & BI</li>
-        <li>Cloud Architecture & MLOps</li>
+        <li>Cloud Architecture & Pipelines</li>
       </ul>
     </td>
     <td width="50%" valign="top">

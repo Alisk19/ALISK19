@@ -7,15 +7,15 @@ def generate_response(title, body):
     text = (title + " " + body).lower()
     
     responses = [
-        "That's an excellent question! While my creator (Muhammed) is away building scalable data pipelines, I can tell you that exploring advanced AI architectures is always on our roadmap.",
-        "Hello! I am Muhammed's automated Data Science Bot. He's currently training a deep learning model, but I'll make sure he sees this issue soon!",
-        "Fascinating! The intersection of Data Engineering and AI is exactly what we specialize in here. Thanks for reaching out!",
+        "That's an excellent question! While my creator (Muhammed) is away building scalable data pipelines, I can tell you that exploring advanced data architectures is always on our roadmap.",
+        "Hello! I am Muhammed's automated Data Science Bot. He's currently optimizing a complex data pipeline, but I'll make sure he sees this issue soon!",
+        "Fascinating! The intersection of Data Engineering and Analytics is exactly what we specialize in here. Thanks for reaching out!",
         "Beep Boop. I've analyzed your request using my rule-based simulated neural network. Conclusion: Muhammed will definitely want to chat with you about this.",
-        "Thanks for the ping! If this is regarding a Data Science or MLOps role, you're in the right place."
+        "Thanks for the ping! If this is regarding a Data Analyst or Data Engineer role, you're in the right place."
     ]
     
     if "hire" in text or "job" in text or "opportunity" in text:
-        return "It sounds like you're reaching out about an opportunity! Muhammed is always open to discussing Data Science and AI Engineering roles. He'll get back to you shortly."
+        return "It sounds like you're reaching out about an opportunity! Muhammed is always open to discussing Data Analytics and Data Engineering roles. He'll get back to you shortly."
     if "model" in text or "machine learning" in text:
         return "Ah, Machine Learning! That's our favorite topic. We love building predictive models and optimizing architectures."
         
