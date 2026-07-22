@@ -57,15 +57,22 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>AI & Data Science</h3>
+      <h3>AI, Data Science & Vibe Coding</h3>
       <p>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/>
       </p>
       <h3>Big Data & Pipelines</h3>
       <p>
+        <img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Looker-4285F4?style=flat-square&logo=looker&logoColor=white"/>
         <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
         <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white"/>
         <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
@@ -76,9 +83,9 @@
       <p>
         <img src="https://skillicons.dev/icons?i=python,r,java,mysql,postgres,mongodb&theme=dark" />
       </p>
-      <h3>Cloud & DevOps</h3>
+      <h3>Google Cloud & DevOps</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,linux&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=gcp,docker,linux,kubernetes&theme=dark" />
       </p>
     </td>
   </tr>
