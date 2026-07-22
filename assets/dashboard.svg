@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#1A233A" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+
+    <!-- Glowing Orbs -->
+    <radialGradient id="glowBlue" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#FF007F" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 42px; fill: #FFFFFF; font-weight: bold; }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; fill: #00D2FF; font-weight: 500; letter-spacing: 2px; }
+    .stat-label { font-family: 'Consolas', monospace; font-size: 12px; fill: #8A9CC0; text-transform: uppercase; }
+    .stat-val { font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; fill: #FFFFFF; font-weight: bold; }
+    
+    .glass-panel {
+      fill: rgba(255, 255, 255, 0.03);
+      stroke: rgba(255, 255, 255, 0.1);
+      stroke-width: 1px;
+    }
+    
+    .neon-text {
+      text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+    }
+    
+    @keyframes float1 { 0% { transform: translate(0, 0); } 50% { transform: translate(0, -10px); } 100% { transform: translate(0, 0); } }
+    @keyframes float2 { 0% { transform: translate(0, 0); } 50% { transform: translate(0, 15px); } 100% { transform: translate(0, 0); } }
+    
+    .orb1 { animation: float1 6s ease-in-out infinite; }
+    .orb2 { animation: float2 8s ease-in-out infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bgGrad)" rx="15" />
+  
+  <!-- Glowing Orbs (Animated) -->
+  <circle cx="250" cy="100" r="150" fill="url(#glowBlue)" class="orb1" />
+  <circle cx="750" cy="200" r="180" fill="url(#glowPink)" class="orb2" />
+  
+  <!-- Main Glass Panel -->
+  <rect x="40" y="40" width="820" height="220" rx="16" class="glass-panel"/>
+  
+  <!-- Text Content -->
+  <text x="80" y="110" class="title neon-text">Muhammed Ali</text>
+  <text x="80" y="140" class="subtitle">DATA SCIENTIST | AI ENGINEER</text>
+  
+  <text x="80" y="190" font-family="Arial" font-size="14" fill="#8A9CC0">Building intelligent data systems,</text>
+  <text x="80" y="215" font-family="Arial" font-size="14" fill="#8A9CC0">predictive models, and scalable architectures.</text>
+
+  <!-- Stats Mini Panels -->
+  <g transform="translate(480, 80)">
+    <rect width="160" height="70" rx="8" class="glass-panel" />
+    <text x="15" y="30" class="stat-label">Model Focus</text>
+    <text x="15" y="55" class="stat-val">Deep Learning</text>
+  </g>
+  
+  <g transform="translate(660, 80)">
+    <rect width="160" height="70" rx="8" class="glass-panel" />
+    <text x="15" y="30" class="stat-label">Data Stack</text>
+    <text x="15" y="55" class="stat-val">Python / SQL</text>
+  </g>
+
+  <g transform="translate(480, 170)">
+    <rect width="160" height="70" rx="8" class="glass-panel" />
+    <text x="15" y="30" class="stat-label">Code Quality</text>
+    <text x="15" y="55" class="stat-val">Clean Arch</text>
+  </g>
+  
+  <g transform="translate(660, 170)">
+    <rect width="160" height="70" rx="8" class="glass-panel" />
+    <text x="15" y="30" class="stat-label">Cloud Native</text>
+    <text x="15" y="55" class="stat-val">MLOps</text>
+  </g>
+  
+</svg>
